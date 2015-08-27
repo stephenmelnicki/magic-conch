@@ -1,0 +1,45 @@
+{
+  "name": "the-magic-conch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "All hail the magic conch.",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "magic",
+    "conch",
+    "magic-conch"
+  ],
+  "homepage": "https://github.com/smelnicki/magic-conch",
+  "bugs": {
+    "url": "https://github.com/smelnicki/magic-conch/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Stephen Melnicki",
+    "email": "smelnicki3@gmail.com",
+    "url": "http://smelnicki.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smelnicki/magic-conch"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
+    "lint": "gulp lint",
+    "start": "hubot --adapter shell --disable-httpd",
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "hubot": "^2.16.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-eslint": "^1.0.0",
+    "gulp-rimraf": "^0.1.1",
+    "hubot": "^2.16.0"
+  }
+}

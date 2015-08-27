@@ -28,6 +28,7 @@
     "clean": "gulp clean",
     "build": "gulp",
     "lint": "gulp lint",
+    "prestart": "npm run build",
     "start": "hubot --adapter shell --disable-httpd",
     "test": "echo \"Error: no tests specified\" && exit 1",
     "prepublish": "npm run build"

@@ -2,7 +2,7 @@ const responses = [
   "Maybe someday.",
   "Nothing.",
   "Neither.",
-  "I don't think so."
+  "I don't think so.",
   "No.",
   "Yes.",
   "Try asking again.",

@@ -4,6 +4,3 @@ node_modules/
 
 # hubot
 .hubot_history
-
-# generated files
-scripts/

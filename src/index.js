@@ -6,7 +6,7 @@ const responses = [
   "No.",
   "Yes.",
   "Try asking again.",
-  "[In a very insulting, sarcastic-like tone] No."
+  "[In a very insulting, sarcastic-like tone] No.",
 ];
 
 export default function (robot) {
@@ -18,4 +18,3 @@ export default function (robot) {
     msg.send("Woo loo loo loo loo!");
   });
 }
-

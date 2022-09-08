@@ -3,7 +3,6 @@
     "browser": true,
     "es6": true
   },
-
   "ecmaFeatures": {
     "arrowFunctions": true,
     "binaryLiterals": true,
@@ -28,7 +27,6 @@
     "globalReturn": true,
     "jsx": true
   },
-
   "rules": {
     "semi": 2,
     "quotes": [ 2, "double" ],
